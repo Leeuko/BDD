@@ -7,7 +7,8 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
         features = {"src/test/resources/features"},
         glue = {"Steps"},
-        tags = "@Smoke and @Regression"
+        tags = "@Smoke and @Regression",
+        plugin = {"html:target/cucumber/html", "pretty"}
         )
 public class TestRunner {
 

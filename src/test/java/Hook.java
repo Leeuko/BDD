@@ -3,8 +3,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import pages.BaseClass;
 
-public class Hook extends BaseClass{
+public class Hook extends BaseClass {
 
     private BaseClass base;
 
